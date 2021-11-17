@@ -3,8 +3,7 @@
 In your code:
 
 ```javascript
-const Commander = require("commander");
-const commander = new Commander();
+const commander = require("commander");
 
 commander.on("build", params => {
   // perform your logic ...

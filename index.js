@@ -1,4 +1,4 @@
-class Commander {
+const commander = {
   on(command, callback) {
     const [first, second, ...inputs] = process.argv;
     const filteredInputs = inputs.filter(input => input.includes("--"));
@@ -11,6 +11,6 @@ class Commander {
       callback(options);
     }
   }
-}
+};
 
-module.exports = Commander;
+module.exports = commander;
