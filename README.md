@@ -3,7 +3,7 @@
 In your code:
 
 ```javascript
-const commander = require("commander");
+const commander = require("klar-commander");
 
 commander.on("build", params => {
   // perform your logic ...
