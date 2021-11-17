@@ -12,6 +12,7 @@ commander.on("build", params => {
 ```
 
 Then in you console:
+
 `node [filename] [command] --[optionName]=[optionValue]`
 
 For example:
